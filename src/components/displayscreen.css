@@ -1,0 +1,23 @@
+.calculator__screen{
+    height: 30%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    overflow: hidden;
+    border-left: 38px solid transparent;
+    border-right: 38px solid transparent;
+    font-family: "Poppins",sans-serif;
+}
+
+.calculator__screen .calculator__screen--top{
+    color: #8e95a0;
+    font-size: 32px;
+}
+
+.calculator__screen .calculator__screen--bottom{
+    color: #111111;
+    font-weight: 500;
+    font-size: 64px;
+}
